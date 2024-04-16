@@ -15,7 +15,7 @@ if (answer.usrPin === pin) {
             message: " Please Select a option :",
             type: "list",
             name: "operation",
-            choices: ["withdraw", "check balance", "Fast cash"],
+            choices: ["withdraw", "check balance"],
         },
     ]);
     if (operationAns.operation === "withdraw") {
